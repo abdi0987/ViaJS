@@ -1,6 +1,4 @@
-#ViaJS
-
-![ViaJS Image](https://cloud.githubusercontent.com/assets/13234884/9150024/d8570b2a-3d8a-11e5-96ca-9bcc5085fe31.png)
+![ViaJS Image](https://cloud.githubusercontent.com/assets/13234884/9150556/a139f32c-3da4-11e5-9c6a-48ac1ac5a998.png)
 
 Via is a small library that allows you to load content on to a page dynamically
 
@@ -64,3 +62,5 @@ Then use an __a__ tag
 </ul>
 ```
 Remeber for the href attribute enter the same name you gave the views object and add __via-link__ attribute to every __<a>__ tag you are using to load your content
+
+![ViaJS Image](https://cloud.githubusercontent.com/assets/13234884/9150024/d8570b2a-3d8a-11e5-96ca-9bcc5085fe31.png)
