@@ -24,7 +24,7 @@ Link to the app.js file
 
 Specifiy were to load the content
 ```html
-<div class="container" via-pages></div>
+<div class="container" via-views></div>
 ```
 add __via-views__ attribute to your div element to specifiy where to load the content 
 
