@@ -39,7 +39,7 @@
             <div id="navbar" class="collapse navbar-collapse">
                 <ul class="nav navbar-nav">
                     <li><a via-link href="home">Home</a></li>
-                    <li><a via-link href="about">Abost</a></li>
+                    <li><a via-link href="about">About</a></li>
                     <li><a via-link href="contact">Contact</a></li>
                 </ul>
             </div>
