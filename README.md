@@ -18,7 +18,11 @@ Link to the app.js file
 <script src='lib/app.js'></script>
 ```
 
-##Usage example
+##Usage 
+![ViaJS Image](https://cloud.githubusercontent.com/assets/13234884/9150024/d8570b2a-3d8a-11e5-96ca-9bcc5085fe31.png)
+
+
+###example
 
 Specifiy were to load the content
 ```html
@@ -62,5 +66,3 @@ Then use an __a__ tag
 </ul>
 ```
 Remeber for the href attribute enter the same name you gave the views object and add __via-link__ attribute to every __<a>__ tag you are using to load your content
-
-![ViaJS Image](https://cloud.githubusercontent.com/assets/13234884/9150024/d8570b2a-3d8a-11e5-96ca-9bcc5085fe31.png)
