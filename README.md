@@ -13,7 +13,7 @@ git clone https://github.com/abdi0987/ViaJS.git
 Link to the app.js file
 
 ```html
-<script src='src/app.js'></script>
+<script src='lib/app.js'></script>
 ```
 
 ##Usage example
