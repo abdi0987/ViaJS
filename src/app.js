@@ -27,10 +27,9 @@ function Via() {
         });
 
         Array.prototype.forEach.call(element.attributes, function(attribute) {
-            if (attribute.name == 'via-pages') {
+            if (attribute.name == 'via-views') {
                 viewElement = element;
             }
-
         });
     }
 
@@ -76,6 +75,11 @@ function Via() {
         var url = views[window.location.hash.substring(1)].templateUrl
 
         //loading content
-        $(viewElement).load(url)
+        if(!viewElement){
+            console.error("could not find via-views attribute in your html")
+        }
+        else{
+            $(viewElement).load(url)
+        }
     }
 };

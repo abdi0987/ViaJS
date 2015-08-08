@@ -20,7 +20,7 @@ Specifiy were to load the content
 ```html
 <div class="container" via-pages></div>
 ```
-add __via-pages__ attribute to your div element to specifiy where to load the content 
+add __via-views__ attribute to your div element to specifiy where to load the content 
 
 
 Specifiy your views url and a defaultView if the user enters an invalid hashtag url.
