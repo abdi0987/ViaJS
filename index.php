@@ -38,21 +38,21 @@
             </div>
             <div id="navbar" class="collapse navbar-collapse">
                 <ul class="nav navbar-nav">
-                    <li class=""><a via-link href="home">Home</a></li>
-                    <li><a via-link href="about">About</a></li>
+                    <li><a via-link href="home">Home</a></li>
+                    <li><a via-link href="about">Abost</a></li>
                     <li><a via-link href="contact">Contact</a></li>
                 </ul>
             </div>
             <!--/.nav-collapse -->
         </div>
     </nav>
-    
+
     <div class='starter-template'>
         <div class="page-header">
             <h1>Home Page  <small>Click the nav links this div will not be affected</small></h1>
         </div>
     </div>
-    
+
     <div class="container" via-views></div>
     <!-- /.container -->
     <!-- Latest compiled and minified JavaScript -->
@@ -60,6 +60,14 @@
     <script type="text/javascript" src="lib/app.js"></script>
     <!-- Init --->
     <script>
+        $(function() {
+            var navBar = $("#navbar");
+
+            navBar.on("click", "a", null, function() {
+                navBar.collapse('hide');
+            });
+        });
+
         var views = {
             home: {
                 templateUrl: 'views/index.php'
