@@ -10,10 +10,13 @@ function Via() {
         if (!views) {
             console.error("Via Init function views parameter is undefined")
         }
-        else {
+        else if(window.jQuery) {
             $compile(document.body);
             $watch(views)
             $hashChange(views)
+        }
+        else{
+            console.error("ViaJS Requires jQuery")
         }
     }
 
