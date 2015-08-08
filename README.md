@@ -10,7 +10,7 @@ git clone https://github.com/abdi0987/ViaJS.git
 
 Link to the app.js file
 
-```javascript
+```html
 <script src='src/app.js'></script>
 ```
 
@@ -20,10 +20,10 @@ Specifiy were to load the content
 ```html
 <div class="container" via-pages></div>
 ```
-add _via-pages_ attribute to your div element to specifiy where to load the content 
+add __via-pages__ attribute to your div element to specifiy where to load the content 
 
 
-Specifiy your views url and a defaultView if the user enters and invalid hashtag url
+Specifiy your views url and a defaultView if the user enters an invalid hashtag url
 Then call the init function and pass it your views
 
 ```javascript
@@ -47,13 +47,13 @@ var via = new Via();
 via.init(views);
 ```
 
-Then use an _<a>_ tag
+Then use an __<a>__ tag
 
 ```html
 <ul class="nav navbar-nav">
-    <li class=""><a via-link href="home">Home</a></li><!---For href enter the same name you gave the views object and add via-link attribute--->
+    <li class=""><a via-link href="home">Home</a></li><!---For href enter the same name you gave the views object and add via-link attribute --->
     <li><a via-link href="about">About</a></li>
     <li><a via-link href="contact">Contact</a></li>
 </ul>
 ```
-Remeber to add _via-link_ attribute to every _<a>_ tag you are using to load your content
+Remeber for the href attribute enter the same name you gave the views object and add __via-link__ attribute to every __<a>__ tag you are using to load your content
