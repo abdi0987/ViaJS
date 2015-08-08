@@ -47,7 +47,7 @@ var via = new Via();
 via.init(views);
 ```
 
-Then use an __<a>__ tag
+Then use an __a__ tag
 
 ```html
 <ul class="nav navbar-nav">
