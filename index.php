@@ -20,7 +20,7 @@
 
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
-    <link rel="stylesheet" href="demo/css/stylesheet.css" type="text/css" />
+    <link rel="stylesheet" href="css/stylesheet.css" type="text/css" />
 </head>
 
 <body>
@@ -57,18 +57,18 @@
     <!-- /.container -->
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="src/app.js"></script>
+    <script type="text/javascript" src="../src/app.js"></script>
     <!-- Init --->
     <script>
         var views = {
             home: {
-                templateUrl: 'demo/views/index.php'
+                templateUrl: 'views/index.php'
             },
             about: {
-                templateUrl: 'demo/views/about.php'
+                templateUrl: 'views/about.php'
             },
             contact: {
-                templateUrl: 'demo/views/contact.php'
+                templateUrl: 'views/contact.php'
             },
             defaultView: {
                 view: 'home'
