@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> </title>
+    </head>
+    <body>
+        <a class='via-link' href='other'>Demo Test</a>
+        <a class='via-link' href='otherView'>Demo view</a>
+        <div class='poop' via-pages>
+        </div>
+        <div>This content will not be affected</div>
+        <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+        <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="app.js"></script>
+        <script>
+            var views = {
+                other:{
+                    templateUrl:'demo-test.html'
+                },
+                otherView:{
+                    templateUrl:'demo-view.html'
+                },
+                defaultView:{
+                    view : 'other'
+                }
+            }
+            
+            var via = new Via();
+            
+            via.init(views);
+        </script>
+    </body>
+</html>
