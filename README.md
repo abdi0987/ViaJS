@@ -4,6 +4,10 @@
 
 Via is a small plugin that allows you to load content on to a page dynamically
 
+##Demo
+
+[ViaJS Demo (click me)](https://www.viajs.herokuapp.com)
+
 ## Installing
 
 ```
