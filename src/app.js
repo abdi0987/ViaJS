@@ -41,6 +41,9 @@ function Via() {
             window.location.hash = $(this).attr("href");
 
             loadPage(views)
+            
+            $('.active').removeClass('.active')
+            $(this).parent().addClass('.active')
 
             return false;
         });
@@ -59,6 +62,9 @@ function Via() {
                 else {
                     location.hash = views.defaultView.view.toString()
                 }
+            }
+            else{
+                location.hash = views.defaultView.view.toString()
             };
         });
 
