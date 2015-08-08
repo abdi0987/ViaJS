@@ -49,7 +49,7 @@
     
     <div class='starter-template'>
         <div class="page-header">
-            <h1>Home Page  <small>This will not be affected</small></h1>
+            <h1>Home Page  <small>Click the nav links this div will not be affected</small></h1>
         </div>
     </div>
     
