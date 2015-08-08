@@ -10,12 +10,12 @@ function Via() {
         if (!views) {
             console.error("Via Init function views parameter is undefined")
         }
-        else if(window.jQuery) {
+        else if (window.jQuery) {
             $compile(document.body);
             $watch(views)
             $hashChange(views)
         }
-        else{
+        else {
             console.error("ViaJS Requires jQuery")
         }
     }
@@ -40,11 +40,7 @@ function Via() {
             //setting url hashtag
             window.location.hash = $(this).attr("href");
 
-            //setting templateUrl
-            var url = views[window.location.hash.substring(1)].templateUrl
-
-            //loading content
-            $(viewElement).load(url)
+            loadPage(views)
 
             return false;
         });
@@ -58,18 +54,22 @@ function Via() {
 
             if (newHash) {
                 if (views[window.location.hash.substring(1)] != undefined) {
-                    //setting templateUrl
-                    var url = views[window.location.hash.substring(1)].templateUrl
-
-                    //loading content
-                    $(viewElement).load(url)
+                    loadPage(views)
                 }
-                else{
+                else {
                     location.hash = views.defaultView.view.toString()
                 }
             };
         });
 
         $(window).trigger('hashchange');
+    }
+
+    var loadPage = function(views) {
+        //setting templateUrl
+        var url = views[window.location.hash.substring(1)].templateUrl
+
+        //loading content
+        $(viewElement).load(url)
     }
 };
