@@ -36,7 +36,7 @@ function Via() {
 
     var $watch = function(views) {
         //Checking if an a element is clicked
-        $("body").delegate("a" + ".via-link", "click", function() {
+        $("body").delegate("a[via-link]", "click", function() {
             //setting url hashtag
             window.location.hash = $(this).attr("href");
 
