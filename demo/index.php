@@ -46,11 +46,11 @@
             <!--/.nav-collapse -->
         </div>
     </nav>
-
-    <div class="starter-template">
-        <h1>Content</h1>
-        <p class="lead">This page is outside the container
-            <br>it will not be affect populated with new elements</p>
+    
+    <div class='starter-template'>
+        <div class="page-header">
+            <h1>Home Page  <small>This will not be affected</small></h1>
+        </div>
     </div>
     
     <div class="container" via-views></div>
@@ -62,13 +62,13 @@
     <script>
         var views = {
             home: {
-                templateUrl: 'views/index.html'
+                templateUrl: 'views/index.php'
             },
             about: {
-                templateUrl: 'views/about.html'
+                templateUrl: 'views/about.php'
             },
             contact: {
-                templateUrl: 'views/contact.html'
+                templateUrl: 'views/contact.php'
             },
             defaultView: {
                 view: 'home'

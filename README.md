@@ -1,5 +1,7 @@
 #ViaJS
 
+![ViaJS Image](https://cloud.githubusercontent.com/assets/13234884/9150024/d8570b2a-3d8a-11e5-96ca-9bcc5085fe31.png)
+
 Via is a small plugin that allows you to load content on to a page dynamically
 
 ## Installing

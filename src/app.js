@@ -41,9 +41,6 @@ function Via() {
 
             loadPage(views)
             
-            $('.active').removeClass('.active')
-            $(this).parent().addClass('.active')
-
             return false;
         });
     }
