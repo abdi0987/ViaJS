@@ -14,7 +14,7 @@
     <!-- jQuery --->
     <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
     <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    
+
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
@@ -47,6 +47,12 @@
         </div>
     </nav>
 
+    <div class="starter-template">
+        <h1>Content</h1>
+        <p class="lead">This page is outside the container
+            <br>it will not be affect populated with new elements</p>
+    </div>
+    
     <div class="container" via-views></div>
     <!-- /.container -->
     <!-- Latest compiled and minified JavaScript -->
@@ -55,14 +61,14 @@
     <!-- Init --->
     <script>
         var views = {
-            home:{
-                templateUrl:'views/index.html'  
+            home: {
+                templateUrl: 'views/index.html'
             },
             about: {
                 templateUrl: 'views/about.html'
             },
-            contact:{
-                templateUrl:'views/contact.html'
+            contact: {
+                templateUrl: 'views/contact.html'
             },
             defaultView: {
                 view: 'home'
