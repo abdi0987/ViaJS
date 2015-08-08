@@ -6,7 +6,7 @@ Via is a small plugin that allows you to load content on to a page dynamically
 
 ##Demo
 
-[ViaJS Demo (click me)](https://www.viajs.herokuapp.com)
+[ViaJS Demo (click me)](http://viajs.herokuapp.com/)
 
 ## Installing
 
