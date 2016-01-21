@@ -37,24 +37,50 @@ Then call the init function and pass it your views
 
 ```javascript
 var views = {
-    home:{
-        templateUrl:'views/index.html'  
-    },
-    about: {
-        templateUrl: 'views/about.html'
-    },
-    contact:{
-        templateUrl:'views/contact.html'
-    },
+    home: [{
+            selector: "#title",
+            templateUrl: 'views/index-title.php'
+        }, {
+            selector: "#content",
+            templateUrl: 'views/index-content.php'
+        },
+    ],
+    about: [{
+            selector: "#title",
+            templateUrl: 'views/about-title.php'
+        }, {
+            selector: "#content",
+            templateUrl: 'views/about-content.php'
+        },
+    ],
+    contact: [{
+            selector: "#title",
+            templateUrl: 'views/contact-title.php'
+        // }, {
+        //     selector: "#content",
+        //     templateUrl: 'views/contact-content.php'
+        },
+    ],
     defaultView: {
         view: 'home'
     }
-}
+};
 
 var via = new Via();
 
 via.init(views);
+
 ```
+
+
+now you can use the short version:
+
+```javascript
+new Via(views);
+
+```
+and also
+
 
 Then use an __a__ tag
 

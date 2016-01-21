@@ -47,13 +47,9 @@
         </div>
     </nav>
 
-    <div class='starter-template'>
-        <div class="page-header">
-            <h1>Home Page  <small>Click the nav links this div will not be affected</small></h1>
-        </div>
-    </div>
+    <div class="container" id="title" via-views>should stay hidden</div>
 
-    <div class="container" via-views></div>
+    <div class="container" id="content" via-views>should stay hidden</div>
     <!-- /.container -->
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
@@ -69,23 +65,34 @@
         });
 
         var views = {
-            home: {
-                templateUrl: 'views/index.php'
-            },
-            about: {
-                templateUrl: 'views/about.php'
-            },
-            contact: {
-                templateUrl: 'views/contact.php'
-            },
+            home: [{
+                    selector: "#title",
+                    templateUrl: 'views/index-title.php'
+                }, {
+                    selector: "#content",
+                    templateUrl: 'views/index-content.php'
+                },
+            ],
+            about: [{
+                    selector: "#title",
+                    templateUrl: 'views/about-title.php'
+                }, {
+                    selector: "#content",
+                    templateUrl: 'views/about-content.php'
+                },
+            ],
+            contact: [{
+                    selector: "#title",
+                    templateUrl: 'views/contact-title.php'
+                // }, {
+                //     selector: "#content",
+                //     templateUrl: 'views/contact-content.php'
+                },
+            ],
             defaultView: {
                 view: 'home'
             }
-        }
-
-        //var via = new Via();
-
-        //via.init(views);
+        };
 
         new Via(views);
 
