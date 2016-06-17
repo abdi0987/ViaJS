@@ -4,7 +4,7 @@ Via is a small library that allows you to load content on to a page dynamically
 
 ##Demo
 
-[ViaJS Demo (click me)](http://viajs.herokuapp.com/)
+[ViaJS Demo (click me)](http://viajs.surge.sh/)
 
 ## Installing
 
@@ -18,7 +18,7 @@ Link to the app.js file
 <script src='lib/app.js'></script>
 ```
 
-##Usage 
+##Usage
 ![ViaJS Image](https://cloud.githubusercontent.com/assets/13234884/9150024/d8570b2a-3d8a-11e5-96ca-9bcc5085fe31.png)
 
 
@@ -28,7 +28,7 @@ Specifiy were to load the content
 ```html
 <div class="container" via-views></div>
 ```
-add __via-views__ attribute to your div element to specifiy where to load the content 
+add __via-views__ attribute to your div element to specifiy where to load the content
 
 
 Specifiy your views url and a defaultView if the user enters an invalid hashtag url.
