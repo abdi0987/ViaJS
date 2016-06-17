@@ -88,9 +88,9 @@ Then use an __a__ tag
 
 ```html
 <ul class="nav navbar-nav">
-    <li class=""><a via-link href="home">Home</a></li>
-    <li><a via-link href="about">About</a></li>
-    <li><a via-link href="contact">Contact</a></li>
+    <li class=""><a via-link via-href="home">Home</a></li>
+    <li><a via-link via-href="about">About</a></li>
+    <li><a via-link via-href="contact">Contact</a></li>
 </ul>
 ```
 Remeber for the href attribute enter the same name you gave the views object and add __via-link__ attribute to every __<a>__ tag you are using to load your content
