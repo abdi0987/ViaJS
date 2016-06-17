@@ -8,6 +8,8 @@ Via is a small library that allows you to load content on to a page dynamically
 
 ## Installing
 
+This library requires **jQuery**
+
 ```
 git clone https://github.com/abdi0987/ViaJS.git
 ```
