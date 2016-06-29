@@ -28,7 +28,11 @@ Link to the app.js file
 
 Specifiy were to load the content
 ```html
-<div class="container" via-views></div>
+<div class="container">
+    <div id="title" via-views>should stay hidden</div>
+
+    <div id="content" via-views>should stay hidden</div>
+</div>
 ```
 add __via-views__ attribute to your div element to specifiy where to load the content
 
