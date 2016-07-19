@@ -97,4 +97,4 @@ Then use an __a__ tag
     <li><a via-link via-href="contact">Contact</a></li>
 </ul>
 ```
-Remeber for the href attribute enter the same name you gave the views object and add __via-link__ attribute to every __<a>__ tag you are using to load your content
+Add __via-link__ attribute to every __<a>__ tag you are using to load your content and remeber that via-href value should be the same name you gave the views object.
