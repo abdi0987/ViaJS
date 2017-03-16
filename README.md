@@ -92,9 +92,9 @@ Then use an __a__ tag
 
 ```html
 <ul class="nav navbar-nav">
-    <li class=""><a via-link via-href="home">Home</a></li>
-    <li><a via-link via-href="about">About</a></li>
-    <li><a via-link via-href="contact">Contact</a></li>
+    <li class=""><a via-href="home">Home</a></li>
+    <li><a via-href="about">About</a></li>
+    <li><a via-href="contact">Contact</a></li>
 </ul>
 ```
-Add __via-link__ attribute to every __<a>__ tag you are using to load your content and remeber that via-href value should be the same name you gave the views object.
+Add __via-href attribute to every __<a>__ tag you are using to load your content and remeber that via-href value should be the same name you gave the views object.
