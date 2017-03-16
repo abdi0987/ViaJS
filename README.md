@@ -2,7 +2,7 @@
 
 Via is a small library that allows you to load content on to a page dynamically
 
-##Demo
+## Demo
 
 [ViaJS Demo (click me)](http://viajs.surge.sh/)
 
