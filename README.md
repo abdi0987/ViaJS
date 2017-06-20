@@ -29,15 +29,15 @@ Link to the app.js file
 Specifiy were to load the content
 ```html
 <div class="container">
-    <div id="title" via-views>should stay hidden</div>
+    <div id="title" via-views>Should stay hidden</div>
 
-    <div id="content" via-views>should stay hidden</div>
+    <div id="content" via-views>Should stay hidden</div>
 </div>
 ```
-add __via-views__ attribute to your div element to specifiy where to load the content
+add __via-views__ attribute to your div element to specify where to load the content
 
 
-Specifiy your views url and a defaultView if the user enters an invalid hashtag url.
+Specify your views url and a default view if the user enters an invalid hashtag url.
 
 Then call the init function and pass it your views
 
